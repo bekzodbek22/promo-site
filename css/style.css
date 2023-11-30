@@ -1,3 +1,5 @@
+/* header part */
+
 .site-header{
   background-color: #ffffff;
 }
@@ -24,6 +26,8 @@
   text-decoration: none;
   color: #fff;
 }
+
+/* Hero(main part) */
 
 .hero{
   background-color: #252420;
@@ -56,7 +60,7 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
-
+/* Features part */
 .features-heading{
   width: 440px;
   font-size: 72px;
@@ -86,7 +90,7 @@
   letter-spacing: 0.5px;
 }
 
-
+/* Promo part */
 .promo{
   background-color: #252420;
   color: #fff;
@@ -116,6 +120,7 @@
   object-fit: cover;
 }
 
+/* footer part */
 .site-footer{
   background-color: #f8f8f8;
 }

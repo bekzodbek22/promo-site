@@ -4,83 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademnashr promo sayt</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <header>
-    <div>
+    <div class="header-cap"></div>
+  <header class="site-header">
+    <div >
       <a href="index.html">
         <img src="img/logo.svg" alt="Akademnashr logosi" width="227" , height="60">
       </a>
 
-      <nav>
-        <ul>
-          <li><a href="#">Bosh Sahifa</a></li>
-          <li><a href="#">Kitoblar</a></li>
-          <li><a href="#">Aksiyalar</a></li>
-          <li><a href="#">Kontaktlar</a></li>
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li><a class="sitenav-link" href="#" >Bosh Sahifa</a></li>
+          <li><a class="sitenav-link" href="#" >Kitoblar</a></li>
+          <li><a class="sitenav-link" href="#" >Aksiyalar</a></li>
+          <li><a class="sitenav-link" href="#" >Kontaktlar</a></li>
         </ul>
-        <a href="#">Ro`yxatdan o`tish</a>
+    <a class="main-link" href="#">Ro`yxatdan o`tish</a>
       </nav>
     </div>
   </header>
 
 
   <main>
-    <section>
+    <section class="hero">
 
       <!-- python dasturlash  -->
-      <div>
-        <div>
-          <hr>
-          <h2>Pythonda Dasturlash <br> Asoslari</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime asperiores ratione dolorem exercitationem cupiditate autem ea laudantium praesentium vel fugiat recusandae dignissimos, sit dicta architecto perferendis expedita quo assumenda. Accusantium.</p>
-          <a href="">Buyurtma berish</a>
+
+        <div class="hero-content">
+          <hr class="orange-line">
+          <h2 class="hero-heading">Pythonda Dasturlash <br> Asoslari</h2>
+          <p class="hero-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime asperiores ratione dolorem exercitationem cupiditate autem ea laudantium praesentium vel fugiat recusandae dignissimos, sit dicta architecto perferendis expedita quo assumenda. Accusantium.</p>
+          <a class="main-link" href="">Buyurtma berish</a>
         </div>
-        <img src="img/python-book.jpg" alt="Pythonda dasturlash asoslari rasmi" width="510", height="510">
-      </div>
+        <img class="hero-img" src="img/python-book.jpg" alt="Pythonda dasturlash asoslari rasmi" width="510", height="510">
+
     </section>
     <!-- nega Akademnashr -->
-    <section>
+    <section class="features">
       <div>
-        <hr>
-        <h2>Nega Aynan <br> Akademnashr?</h2>
+        <hr class="orange-line">
+        <h2 class="features-heading">Nega Aynan <br> Akademnashr?</h2>
         <ul>
-          <li>
-            <img src="img/oson-buyurtma.svg" alt="Oson Buyurtma">
-            <h3>Oson Buyurtma berish</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sed velit ad ratione consectetur! Harum autem deleniti quaerat ad quas.</p>
+          <li class="feature">
+            <div class="feature-icon-wrapper">
+              <img src="img/oson-buyurtma.svg" alt="Oson Buyurtma">
+            </div>
+            <h3 class="feature-heading">Oson Buyurtma berish</h3>
+            <p class="feature-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sed velit ad ratione consectetur! Harum autem deleniti quaerat ad quas.</p>
           </li>
-          <li>
-            <img src="img/eng-sara-kitoblar.svg" alt="Eng sara Kitoblar">
-            <h3>Eng sara Kitoblar</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, sed Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, similique.</p>
+          <li class="feature">
+            <div class="feature-icon-wrapper">
+              <img src="img/eng-sara-kitoblar.svg" alt="Eng sara Kitoblar">
+            </div>
+            <h3 class="feature-heading">Eng sara Kitoblar</h3>
+            <p class="feature-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, sed Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, similique.</p>
           </li>
-          <li>
-            <img src="img/tez-yetkazib-berish.svg" alt="Tez Yetkazib Berish">
-            <h3>Tez Yetkazib Berish</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eos ex nobis, nam molestias cumque ducimus aut animi maxime nemo, fugiat quasi quia dolores libero doloremque est ab dignissimos beatae.</p>
+          <li class="feature">
+            <div class="feature-icon-wrapper">
+              <img src="img/tez-yetkazib-berish.svg" alt="Tez Yetkazib Berish">
+            </div>
+            <h3 class="feature-heading">Tez Yetkazib Berish</h3>
+            <p class="feature-info">lorem20.</p>
           </li>
         </ul>
       </div>
     </section>
     <!-- aksiyalar -->
-    <section>
-
-      <div>
-        <div>
+    <section class="promo">
+        <div class="promo-content">
           <hr>
-          <h2>Bolalar kitoblari uchun <br> ajoyib aksiyalar</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, amet voluptas soluta doloribus eligendi suscipit illo voluptatem unde excepturi cupiditate.</p>
-          <a href="#">Buyurtma Berish</a>
+          <h2 class="promo-heading">Bolalar kitoblari uchun <br> ajoyib aksiyalar</h2>
+          <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, amet voluptas soluta doloribus eligendi suscipit illo voluptatem unde excepturi cupiditate.</p>
+          <p class="promo-text">Lorem ipsum dolor sit amet <strong class="promo-highlight">consectetur adipisicing elit.</strong> Consequatur omnis maxime nam. <strong class="promo-highlight">Quibusdam officiis adipisci porro</strong> fugiat odit dolor distinctio.</p>
+          <a class="main" href="#">Buyurtma Berish</a>
         </div>
-        <img src="img/sale-img.jpg" alt="Bolalar kitoblari uchun ajoyib aksiya!" width="440", height="440">
-      </div>
+        <img class="promo-img" src="img/sale-img.jpg" alt="Bolalar kitoblari uchun ajoyib aksiya!" width="440", height="440">
+
     </section>
   </main>
 
 
-  <footer>
+  <footer class="site-footer">
 
     <div>
       <a href="index.html">
@@ -93,6 +99,46 @@
         <li><a href="https://t.me/Akademnashr" target="_blank"> <img src="img/icon-instagram.svg" alt="Instagram sahifasi"></a></li>
       </ul>
     </div>
+
+    <hr class="footer-line">
+
+    <div class="footer-content">
+      <ul class="site-footer-link-list">
+        <li><a href="#">Bosh Sahifa</a></li>
+        <li><a href="#">Kitoblar</a></li>
+        <li><a href="#">aksiyalar</a></li>
+        <li><a href="#">Yangiliklar</a></li>
+        <li><a href="#">Kontaktlar</a></li>
+      </ul>
+
+      <ul class="site-footer-link-list">
+        <li><a href="#">Ilmiy nashrlar</a></li>
+        <li><a href="#">Ilmiy-ommabop nashrlar</a></li>
+        <li><a href="#">Ma’rifiy nashrlar</a></li>
+        <li><a href="#">Lug’atlar</a></li>
+        <li><a href="#">Adabiy-badiiy nashrlar</a></li>
+        <li><a href="#">Abituriyentlar uchun</a></li>
+        <li><a href="#">Bolalar Uchun</a></li>
+      </ul>
+
+      <ul class="site-footer-link-list">
+        <li><a href="#">Ko’p so’raladigan savollar</a></li>
+        <li><a href="#">Yetkazib berish haqida</a></li>
+        <li><a href="#">To’lov usullari haqida</a></li>
+      </ul>
+
+      <ul class="site-footer-link-list">
+        <li><a href="#">Bo’sh ish o’rinlari</a></li>
+        <li><a href="#">Biz bilan bog’lanish</a></li>
+        <li><a href="#">Maxfiylik nizomi</a></li>
+      </ul>
+
+    </div>
+
+
+
+
+
   </footer>
 
 </body>

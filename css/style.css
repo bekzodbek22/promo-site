@@ -26,6 +26,7 @@ body{
   padding-bottom: 16px;
 }
 
+
 .logo-link{
  transition: opacity 0.4s ease;
 }
@@ -40,6 +41,14 @@ body{
 
 .sitenav-list{
   list-style: none;
+}
+
+.sitenav-item:last-child{
+  margin-right: 0;
+}
+
+.sitenav-item{
+  margin-right: 32px;
 }
 
 .sitenav-link{
@@ -101,6 +110,7 @@ body{
 .orange-line{
   width: 80px;
   height: 3px;
+  margin-bottom: 40px;
   border: none;
   background-color: #ff7500;
 }
@@ -112,9 +122,14 @@ body{
 }
 
 .hero-heading{
+  margin-bottom: 24px;
   font-size: 40px;
   line-height: 1.2;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}
+
+.hero-text{
+  margin-bottom: 32px;
 }
 
 /* Features part */
@@ -126,6 +141,7 @@ body{
 
 .features-heading{
   font-family:"Roboto Condensed", "Roboto", "Arial", sans-serif;
+  margin-bottom: 72px;
   width: 440px;
   font-size: 72px;
   line-height: 1.2;
@@ -133,6 +149,11 @@ body{
 
 .feature{
  width: 340px;
+ margin-right: 40px;
+}
+
+.feature:last-child{
+  margin-right: 0;
 }
 
 .feature-list{
@@ -181,6 +202,7 @@ body{
 }
 
 .promo-heading{
+  margin-bottom: 24px;
   font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;;
   font-size: 40px;
   line-height: 48px;
@@ -189,6 +211,18 @@ body{
 
 .promo-highlight{
   color: #ff7500;
+}
+
+.promo-text{
+  margin-bottom: 12px;
+}
+
+.promo-text:last-child{
+  margin-bottom: 0;
+}
+
+.promo-info-wrapper{
+  margin-bottom: 24px;
 }
 
 .promo-img{
@@ -225,12 +259,22 @@ body{
 .footer-line{
   height: 2px;
   border: 0;
+  margin-top: 40px;
+  margin-bottom: 64px;
  background-color:#25242080;
  }
 
  .site-footer-socials{
   display: flex;
   align-items: center;
+ }
+
+ .site-footer-socials li{
+  margin-right: 16px;
+ }
+
+ .site-footer-socials li:last-child{
+  margin-right: 0;
  }
 
  .site-footer-socials a{
@@ -249,12 +293,17 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
 }
 
  .site-footer-link-list{
   width: 224px;
   line-height: 19px;
+  list-style: none;
+  margin-right: 68px;
+ }
+
+ .site-footer-link-list:last-child{
+  margin-right: 0;
  }
 
  .site-footer-link-list a{

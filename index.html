@@ -10,22 +10,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- style link -->
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="header-cap"></div>
   <header class="site-header">
-    <div >
+    <div class="header-content">
       <a class="logo-link" href="index.html">
         <img src="img/logo.svg" alt="Akademnashr logosi" width="227" , height="60">
       </a>
 
       <nav class="sitenav">
         <ul class="sitenav-list">
-          <li><a class="sitenav-link" href="#" >Bosh Sahifa</a></li>
-          <li><a class="sitenav-link" href="#" >Kitoblar</a></li>
-          <li><a class="sitenav-link" href="#" >Aksiyalar</a></li>
-          <li><a class="sitenav-link" href="#" >Kontaktlar</a></li>
+          <li class="sitenav_item"><a class="sitenav-link" href="#" >Bosh Sahifa</a></li>
+          <li class="sitenav_item"><a class="sitenav-link" href="#" >Kitoblar</a></li>
+          <li class="sitenav_item"><a class="sitenav-link" href="#" >Aksiyalar</a></li>
+          <li class="sitenav_item"><a class="sitenav-link" href="#" >Kontaktlar</a></li>
         </ul>
         <a class="main-link" href="#">Ro`yxatdan o`tish</a>
       </nav>
@@ -82,8 +83,10 @@
       <div class="promo-content">
         <hr>
         <h2 class="promo-heading">Bolalar kitoblari uchun <br> ajoyib aksiyalar</h2>
-        <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, amet voluptas soluta doloribus eligendi suscipit illo voluptatem unde excepturi cupiditate.</p>
-        <p class="promo-text">Lorem ipsum dolor sit amet <strong class="promo-highlight">consectetur adipisicing elit.</strong> Consequatur omnis maxime nam. <strong class="promo-highlight">Quibusdam officiis adipisci porro</strong> fugiat odit dolor distinctio.</p>
+        <div class="promo-info-wrapper">
+          <p class="promo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, amet voluptas soluta doloribus eligendi suscipit illo voluptatem unde excepturi cupiditate.</p>
+          <p class="promo-text">Lorem ipsum dolor sit amet <strong class="promo-highlight">consectetur adipisicing elit.</strong> Consequatur omnis maxime nam. <strong class="promo-highlight">Quibusdam officiis adipisci porro</strong> fugiat odit dolor distinctio.</p>
+        </div>
         <a class="main-link" href="#">Buyurtma Berish</a>
       </div>
       <img class="promo-img" src="img/sale-img.jpg" alt="Bolalar kitoblari uchun ajoyib aksiya!" width="440", height="440">
